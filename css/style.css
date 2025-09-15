@@ -2,6 +2,10 @@
     color: #f00;
     font-size: 3em;
     text-align: center;
+    
+}
+#titrePage:hover{
+    color: #0f0;
 }
 .paragraphe{
     text-align: justify;
@@ -17,4 +21,30 @@ span{
     span{
         color: #629;
     }
+}
+#lien:link{
+    color: currentColor;
+    text-decoration-style: wavy;
+    text-decoration-color: #f00;
+}
+#lien:hover{
+    background-color: #fd0;
+    text-decoration: none;
+}
+#lien:active{
+    text-decoration-color: #f00;
+    color: currentColor;
+}
+#lien:visited{
+    text-decoration-color: #f00;
+    color: currentColor;
+}
+#Consignes{
+    border: solid #daa520;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    background-image: url(./assets/images/ex04_image_fond.jpg);
+    background-size: 100%;
+    box-shadow: 0px 0px 25px #333;
 }
