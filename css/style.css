@@ -1,3 +1,20 @@
-#titrepage{
+#titrePage{
     color: #f00;
+    font-size: 3em;
+    text-align: center;
+}
+.paragraphe{
+    text-align: justify;
+    span{
+        color: #3f3;
+    }
+}
+span{
+    font-size: 2em;
+    font-style: italic;
+}
+#paragraphe1{
+    span{
+        color: #629;
+    }
 }
